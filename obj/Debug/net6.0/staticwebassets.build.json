@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MaAy8sCmIpKJOkrIRAr8064cDtUtTjWIUxRNOrSHrHI=",
+  "Source": "PaymentApp",
+  "BasePath": "_content/PaymentApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

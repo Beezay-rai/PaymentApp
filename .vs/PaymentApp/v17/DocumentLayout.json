@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\configure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\_api.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configure.cshtml",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
+              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
+              "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAUwLAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T10:00:27.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Api.cshtml",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
+              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
+              "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T09:58:25.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
