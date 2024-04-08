@@ -20,4 +20,21 @@
         public decimal Amount { get; set; }
         public string Status { get; set; }
     }
+
+    public class MyNestedTestModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public MyNestedModel A { get; set; }
+        public TransactionModel B { get; set; }
+    }
+
+    public class MyNestedModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public TransactionGETModel A { get; set; }
+        public TransactionModel B { get; set; }
+    }
 }

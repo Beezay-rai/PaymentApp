@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PaymentApp.Model;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -54,6 +55,13 @@ namespace PaymentApp.Controllers
 
             var decript = rSA.Decrypt(cipher, false);
             return Encoding.UTF8.GetString(decript);
+        }
+
+        [HttpGet]
+
+        public string NestedClassObj(A haha)
+        {
+            return "Working";
         }
     }
 }

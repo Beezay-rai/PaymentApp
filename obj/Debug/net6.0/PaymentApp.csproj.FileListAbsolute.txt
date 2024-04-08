@@ -65,6 +65,7 @@ C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.csproj.CoreCompileInputs.cache
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.sourcelink.json
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\staticwebassets\msbuild.PaymentApp.Microsoft.AspNetCore.StaticWebAssets.props
@@ -79,3 +80,4 @@ C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.pdb
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\PaymentApp.genruntimeconfig.cache
 C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\obj\Debug\net6.0\ref\PaymentApp.dll
+C:\Users\OnePoint-bijay\Desktop\Projects\OfficeProject\PaymentApp\bin\Debug\net6.0\PaymentApp.staticwebassets.runtime.json

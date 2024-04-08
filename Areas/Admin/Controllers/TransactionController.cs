@@ -28,20 +28,20 @@ namespace PaymentApp.Areas.Admin.Controllers
 
         #region Learning
         [HttpGet]
-        public async Task<IActionResult> TotalAmount(string username)
+        public async Task<IActionResult> TotalAmount([FromBody] string username)
         {
             var data = await _transaction.CheckBalance(username);
 
             return Ok(data);
         }
         [HttpPost]
-        public async Task<IActionResult> WithdrawAmountAsync(int amount, string Username)
+        public async Task<IActionResult> WithdrawAmountAsync( int amount, string Username)
         {
 
             return Ok(await _transaction.WithdrawAmount(amount, Username));
         }
         [HttpPost]
-        public async Task<IActionResult> DepositAmountAsync(TransactionModel model)
+        public async Task<IActionResult> DepositAmountAsync([FromHeader]TransactionModel model)
         {
 
             var randomnumb = new Random().Next(0, 6);
@@ -125,6 +125,17 @@ namespace PaymentApp.Areas.Admin.Controllers
             
           
         }
+        [HttpGet]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(500)]
+        [ProducesResponseType(404)]
+
+        public IActionResult ForNestObj(MyNestedTestModel obj)
+        {
+            return Ok(obj);
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> CheckStatus([FromBody] string trackingid)

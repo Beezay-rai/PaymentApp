@@ -6,7 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\configure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\_api.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\model\\nestedclassfortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:model\\nestedclassfortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\controllers\\algorithmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:controllers\\algorithmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,28 +41,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NestedClassForTest.cs",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Model\\NestedClassForTest.cs",
+              "RelativeDocumentMoniker": "Model\\NestedClassForTest.cs",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Model\\NestedClassForTest.cs",
+              "RelativeToolTip": "Model\\NestedClassForTest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwCcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:41:42.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlgorithmController.cs",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\AlgorithmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlgorithmController.cs",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\AlgorithmController.cs",
+              "RelativeToolTip": "Controllers\\AlgorithmController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwD0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:00:14.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:00:13.495Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Configure.cshtml",
               "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
               "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
               "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
               "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAUwLAAAABLAAAA",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAAJQBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T10:00:27.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Api.cshtml",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
-              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
-              "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\_Api.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T09:58:25.209Z",
+              "WhenOpened": "2024-04-07T06:14:16.995Z",
               "EditorCaption": ""
             }
           ]
