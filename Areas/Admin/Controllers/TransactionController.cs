@@ -3,8 +3,6 @@ using PaymentApp.Areas.Admin.Interfaces;
 using PaymentApp.Areas.Admin.Models;
 using PaymentApp.Model;
 using System.Security.Cryptography;
-using PaymentApp.Utility;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 namespace PaymentApp.Areas.Admin.Controllers
 {
@@ -13,14 +11,14 @@ namespace PaymentApp.Areas.Admin.Controllers
     public class TransactionController : ControllerBase
     {
         private readonly ITransaction _transaction;
-         RSACryptoServiceProvider rSA;
+        RSACryptoServiceProvider rSA;
 
         private RSAParameters _privatekey;
         private RSAParameters _publickey;
-        public TransactionController(ITransaction transaction )
+        public TransactionController(ITransaction transaction)
         {
             rSA = new RSACryptoServiceProvider();
-            
+
             _privatekey = rSA.ExportParameters(true);
             _publickey = rSA.ExportParameters(false);
             _transaction = transaction;
@@ -35,13 +33,13 @@ namespace PaymentApp.Areas.Admin.Controllers
             return Ok(data);
         }
         [HttpPost]
-        public async Task<IActionResult> WithdrawAmountAsync( int amount, string Username)
+        public async Task<IActionResult> WithdrawAmountAsync(int amount, string Username)
         {
 
             return Ok(await _transaction.WithdrawAmount(amount, Username));
         }
         [HttpPost]
-        public async Task<IActionResult> DepositAmountAsync([FromHeader]TransactionModel model)
+        public async Task<IActionResult> DepositAmountAsync([FromHeader] TransactionModel model)
         {
 
             var randomnumb = new Random().Next(0, 6);
@@ -105,7 +103,7 @@ namespace PaymentApp.Areas.Admin.Controllers
             return test;
         }
 
-      
+
 
         [HttpGet]
         public object testingalo(string json)
@@ -122,14 +120,15 @@ namespace PaymentApp.Areas.Admin.Controllers
                 cipher = cipher,
                 decrypted = decrypted,
             };
-            
-          
+
+
         }
         [HttpGet]
+
         [ProducesResponseType(404)]
-        [ProducesResponseType(200)]
+        [ProducesResponseType(200, Type = typeof(string))]
         [ProducesResponseType(500)]
-        [ProducesResponseType(404)]
+        [Produces("application/xml", "application/json")]
 
         public IActionResult ForNestObj(MyNestedTestModel obj)
         {

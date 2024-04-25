@@ -1,6 +1,5 @@
 ﻿using Dapper;
 using PaymentApp.Areas.Admin.Interfaces;
-using PaymentApp.Areas.Admin.Models;
 using PaymentApp.DataModel;
 
 namespace PaymentApp.Areas.Admin.Repositories

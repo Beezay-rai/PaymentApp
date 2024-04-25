@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "CW0VV44RekShIUiLGSdUMVR0AcJ3hcUzM1PoiuneNR4=",
+  "Source": "PaymentApp",
+  "BasePath": "_content/PaymentApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PaymentApp\\wwwroot",
+      "Source": "PaymentApp",
+      "ContentRoot": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\wwwroot\\",
+      "BasePath": "_content/PaymentApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\wwwroot\\index.html",
+      "SourceId": "PaymentApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\wwwroot\\",
+      "BasePath": "_content/PaymentApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

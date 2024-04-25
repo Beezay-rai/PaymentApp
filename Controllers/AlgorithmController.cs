@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PaymentApp.Model;
 using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace PaymentApp.Controllers
@@ -18,7 +16,7 @@ namespace PaymentApp.Controllers
 
         public AlgorithmController()
         {
-           rSA = new RSACryptoServiceProvider();
+            rSA = new RSACryptoServiceProvider();
             _privatekey = rSA.ExportParameters(true);
             _publickey = rSA.ExportParameters(false);
         }
@@ -31,7 +29,7 @@ namespace PaymentApp.Controllers
             my.ImportParameters(_publickey);
             var cipher = my.Encrypt(Encoding.UTF8.GetBytes(json), false);
 
-            var ecnrypttext =Convert.ToBase64String(cipher);
+            var ecnrypttext = Convert.ToBase64String(cipher);
             rSA.ImportParameters(_privatekey);
 
 
@@ -46,7 +44,7 @@ namespace PaymentApp.Controllers
 
 
         }
-
+            
         [HttpGet]
         public string Decrypt(string json)
         {
@@ -62,6 +60,15 @@ namespace PaymentApp.Controllers
         public string NestedClassObj(A haha)
         {
             return "Working";
+        }
+
+
+        [HttpGet]
+        [Produces("application/xml")]
+        public IActionResult xmlRetrun()
+        {
+            var mytest = new ResponseModel() {Message="XML" };
+            return Ok(mytest);
         }
     }
 }

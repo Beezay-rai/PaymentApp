@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using PaymentApp.Areas.Admin;
@@ -6,17 +5,48 @@ using PaymentApp.Areas.Admin.Interfaces;
 using PaymentApp.Areas.Admin.Repositories;
 using PaymentApp.DataModel;
 using PaymentApp.Model;
-using Swashbuckle.AspNetCore.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-OpenApiServer server = new OpenApiServer() { Url= "https://app.swaggerhub.com/home" };
-OpenApiServer bija = new OpenApiServer() { Url= "Testing" };
-builder.Services.AddControllers();
+OpenApiServer server = new OpenApiServer() { Url = "https://app.swaggerhub.com/home" };
+OpenApiServer bija = new OpenApiServer() { Url = "Testing" };
+builder.Services.AddControllers(options =>
+{
+    options.RespectBrowserAcceptHeader = false; // This is optional
+
+}).AddXmlSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference= new OpenApiReference
+                {
+                    Type=ReferenceType.SecurityScheme,
+                    Id="Bearer"
+                }
+            },
+            new string[]{ }
+        }
+    });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        BearerFormat = "Bearer",
+        Type=SecuritySchemeType.ApiKey,
+        Scheme="bearer",
+        Name="My Security Definiton",
+        Description = "Testing my Security scheme",
+        In = ParameterLocation.Header,
+
+    });
+});
 builder.Services.AddDbContext<PaymentContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddLogging();
 builder.Services.Configure<Appsetting>(builder.Configuration.GetSection("AppSettings"));

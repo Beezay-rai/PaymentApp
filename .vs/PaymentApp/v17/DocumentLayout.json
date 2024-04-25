@@ -6,16 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\configure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\model\\nestedclassfortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:model\\nestedclassfortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\controllers\\algorithmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:controllers\\algorithmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11D067B-8C19-4452-9CD9-582FC8B94C65}|PaymentApp.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\controllers\\openapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,40 +31,20 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NestedClassForTest.cs",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Model\\NestedClassForTest.cs",
-              "RelativeDocumentMoniker": "Model\\NestedClassForTest.cs",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Model\\NestedClassForTest.cs",
-              "RelativeToolTip": "Model\\NestedClassForTest.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAkwCcAAAAUAAAA",
+              "Title": "OpenApiController.cs",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
+              "RelativeToolTip": "..\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAnwMcAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:41:42.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlgorithmController.cs",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\AlgorithmController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AlgorithmController.cs",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\AlgorithmController.cs",
-              "RelativeToolTip": "Controllers\\AlgorithmController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAmwD0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:00:14.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:00:13.495Z"
+              "WhenOpened": "2024-04-25T04:36:17.998Z"
             },
             {
               "$type": "Document",
@@ -83,9 +54,9 @@
               "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
               "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
               "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAAAJQBAAAAAAAA",
+              "ViewState": "AQIAAOgDAAAAAAAAAAAgwAcEAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T06:14:16.995Z",
+              "WhenOpened": "2024-04-25T04:27:37.939Z",
               "EditorCaption": ""
             }
           ]

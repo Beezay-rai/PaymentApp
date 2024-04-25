@@ -12,11 +12,11 @@ namespace PaymentApp.Areas.Admin.Repositories
     public class TransactionRepository : ITransaction
     {
         private readonly PaymentContext _context;
-        
+
         private readonly ILogger<TransactionRepository> _logger;
         private readonly string connectionstring;
 
-        public TransactionRepository(IOptions<Appsetting>app,PaymentContext context, ILogger<TransactionRepository> logger)
+        public TransactionRepository(IOptions<Appsetting> app, PaymentContext context, ILogger<TransactionRepository> logger)
         {
             _context = context;
             _logger = logger;
@@ -57,14 +57,14 @@ namespace PaymentApp.Areas.Admin.Repositories
             {
                 try
                 {
-                    using(var connection = new SqlConnection(connectionstring))
+                    using (var connection = new SqlConnection(connectionstring))
                     {
                         connection.Open();
                         var result = connection.Execute("Insert into Balance (Username,TotalAmount) Values (@Username,@TotalAmount)", model);
                         Console.WriteLine(result);
 
                     }
-                   
+
 
                     var data = new Balance()
                     {

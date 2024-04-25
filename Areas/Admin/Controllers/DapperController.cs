@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PaymentApp.Areas.Admin.Interfaces;
 
 namespace PaymentApp.Areas.Admin.Controllers
