@@ -26,7 +26,7 @@ namespace PaymentApp.Areas.Admin.Controllers
 
         #region Learning
         [HttpGet]
-        public async Task<IActionResult> TotalAmount([FromBody] string username)
+        public async Task<IActionResult> TotalAmount([FromBody] string username="Bijay")
         {
             var data = await _transaction.CheckBalance(username);
 
@@ -72,9 +72,9 @@ namespace PaymentApp.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateNewBalance(BalanceModel model)
+        public async Task<IActionResult> CreateNewBalance(BalanceModel tocreatenewacc)
         {
-            return Ok(await _transaction.CreateNewBalance(model));
+            return Ok(await _transaction.CreateNewBalance(tocreatenewacc));
         }
         [HttpGet]
         public async Task<IActionResult> GetAllTransaction()
@@ -137,27 +137,27 @@ namespace PaymentApp.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CheckStatus([FromBody] string trackingid)
+        public async Task<IActionResult> CheckStatus([FromBody] int trackingid =50)
         {
             var response = new ResponseModel();
             var randomnumb = new Random().Next(0, 4);
             switch (randomnumb)
             {
                 case 0:
-                    response = await _transaction.CheckStatus(trackingid);
+                    response = await _transaction.CheckStatus(trackingid.ToString());
                     break;
                 case 1:
-                    response = await _transaction.CheckStatus(trackingid);
+                    response = await _transaction.CheckStatus(trackingid.ToString());
 
                     break;
                 case 2:
                     Task.Delay(1500).GetAwaiter().GetResult();
-                    response = await _transaction.CheckStatus(trackingid);
+                    response = await _transaction.CheckStatus(trackingid.ToString());
 
                     break;
                 case 3:
                     Task.Delay(1500).GetAwaiter().GetResult();
-                    response = await _transaction.CheckStatus(trackingid);
+                    response = await _transaction.CheckStatus(trackingid.ToString());
 
                     break;
                 default:

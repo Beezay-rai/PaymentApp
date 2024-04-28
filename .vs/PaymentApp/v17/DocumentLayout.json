@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\views\\openapi\\configure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\controllers\\openapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF3337BF-A1C6-4D54-AB7B-AA1389139D73}|..\\PaymentAppMVC\\PayementMVC.csproj|c:\\users\\onepoint-bijay\\desktop\\projects\\officeproject\\paymentappmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,32 +31,29 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\.gitignore",
+              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\.gitignore",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\.gitignore",
+              "RelativeToolTip": "..\\PaymentAppMVC\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-28T05:17:31.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OpenApiController.cs",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
-              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
-              "RelativeToolTip": "..\\PaymentAppMVC\\Controllers\\OpenApiController.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAnwMcAAABXAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Program.cs",
+              "RelativeToolTip": "..\\PaymentAppMVC\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T04:36:17.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Configure.cshtml",
-              "DocumentMoniker": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "RelativeDocumentMoniker": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "ToolTip": "C:\\Users\\OnePoint-bijay\\Desktop\\Projects\\OfficeProject\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "RelativeToolTip": "..\\PaymentAppMVC\\Views\\OpenApi\\Configure.cshtml",
-              "ViewState": "AQIAAOgDAAAAAAAAAAAgwAcEAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T04:27:37.939Z",
+              "WhenOpened": "2024-04-28T05:15:27.348Z",
               "EditorCaption": ""
             }
           ]

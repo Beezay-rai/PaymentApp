@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PaymentApp.Model;
 using System.Security.Cryptography;
 using System.Text;
@@ -7,6 +9,7 @@ namespace PaymentApp.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Authorize]
     public class AlgorithmController : ControllerBase
     {
 
@@ -22,7 +25,7 @@ namespace PaymentApp.Controllers
         }
 
 
-        [HttpGet]
+        [HttpPost]
         public object TestAlgorithm(string json)
         {
             RSACryptoServiceProvider my = new RSACryptoServiceProvider();
