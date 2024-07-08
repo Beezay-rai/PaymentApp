@@ -1,0 +1,10 @@
+---
+first: some words
+second: 42
+third: !!binary |
+  R0lGODlhDAAMAIQAAP//9/X
+  17unp5WZmZgAAAOfn515eXv
+  Pz7Y6OjuDg4J+fn5OTk6enp
+  56enmleECcgggoBADs=mZmE
+fourth: 2015-01-02T12:30:47.807Z
+...

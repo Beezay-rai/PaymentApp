@@ -1,0 +1,8 @@
+---
+things:
+  shirt: string
+  pants: number
+  socks:
+    size: number
+    fabric: string
+...

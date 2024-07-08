@@ -1,0 +1,6 @@
+---
+- first: this is a string
+  second: 72
+- first: another string
+  second: this is also a string
+...

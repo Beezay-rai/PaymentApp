@@ -1,0 +1,8 @@
+---
+things:
+  shirt: it is red
+  pants: 36
+  socks:
+    size: this is a string
+    fabric: wool
+...

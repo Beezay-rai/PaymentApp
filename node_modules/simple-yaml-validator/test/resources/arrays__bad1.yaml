@@ -1,0 +1,5 @@
+---
+things:
+  - first: some words
+    second: this is not a number
+...

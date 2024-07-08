@@ -1,0 +1,5 @@
+---
+things:
+  - first: string
+    second: number
+...

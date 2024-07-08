@@ -1,0 +1,4 @@
+---
+# numbers are not automatically coerced to dates
+key: 2015
+...

@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Please",
+    "Projects": [
+      {
+        "Name": "PaymentApp.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "..\\PaymentAppMVC\\PayementMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
